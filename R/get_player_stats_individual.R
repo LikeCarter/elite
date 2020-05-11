@@ -68,17 +68,17 @@ get_player_stats_individual <- function(..., progress = TRUE, strip_redundancy =
       
       if (other == "evan") {
         
-        seq(7, 11, by = 0.001) %>%
-          sample(1) %>%
-          Sys.sleep()
+        # seq(7, 11, by = 0.001) %>%
+        #   sample(1) %>%
+        #   Sys.sleep()
         
       }
       
       else {
         
-        seq(20, 35, by = 0.001) %>%
-          sample(1) %>%
-          Sys.sleep()
+      #   seq(20, 35, by = 0.001) %>%
+      #     sample(1) %>%
+      #     Sys.sleep()
         
       }
       
